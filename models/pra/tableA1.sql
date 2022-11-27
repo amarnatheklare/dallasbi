@@ -4,3 +4,5 @@ union
 select 'B' as name1
 union
 select 'C' as name1
+union 
+select 'D' as name2
