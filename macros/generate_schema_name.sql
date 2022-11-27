@@ -5,8 +5,8 @@
 
         {{ default_schema }}
 
-    {%- elif custom_schema_name is not none -%}
-        {{ custom_schema_name|trim }}
+    {% elif custom_schema_name is not none %}
+        {{ custom_schema_name | trim }}
 
     {%- else -%}
 
